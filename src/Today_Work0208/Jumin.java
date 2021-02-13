@@ -20,11 +20,13 @@ class CheckJumin {
     static boolean CheckJ() {
         System.out.print("주민 번호 입력(000000-0000000): ");
         userNum = scanner.nextLine();
+        boolean bo = false;
+        
+        
 
         if (userNum.indexOf("-") == -1) {
             System.out.println("-을 넣으세요");
             return false;
-
         } else if (userNum.length() != 14) {
             System.out.println("잘못입력하셨습니다.");
             return false;
