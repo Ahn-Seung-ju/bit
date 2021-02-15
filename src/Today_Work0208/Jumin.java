@@ -20,7 +20,7 @@ class CheckJumin {
     static boolean CheckJ() {
         System.out.print("주민 번호 입력(000000-0000000): ");
         userNum = scanner.nextLine();
-        boolean bo = false;
+        
         
         
 
